@@ -22,6 +22,7 @@ git config user.email " 邮箱 "
 **git init 文件**
 
 添加文件到暂存区（多个文件用空格分隔）
+**git add 文件**
 
 ![屏幕截图 2024-05-09 141805](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/c395068c-16f1-4bbe-9a1e-804e50c5cf97)
 
