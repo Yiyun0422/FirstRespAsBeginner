@@ -65,7 +65,8 @@ git commit -m " ...... " demo.txt
 
 #### git 日志
 
-git log        由近到远操作记录
+**git log**
+由近到远操作记录
 
 ![屏幕截图 2024-05-09 144148](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/8245ed79-12ba-4254-a508-29fc5b67508e)
 
