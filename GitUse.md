@@ -2,7 +2,8 @@
 
 
 
-![image-20240509141416729](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509141416729.png)
+![屏幕截图 2024-05-09 141352](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/4c70bbd4-3dac-4a01-a2a4-66dc3d929e64)
+
 
 
 
@@ -22,7 +23,8 @@ git config user.email " 邮箱 "
 
 添加文件到暂存区（多个文件用空格分隔）
 
-![image-20240509141815858](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509141815858.png)
+![屏幕截图 2024-05-09 141805](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/c395068c-16f1-4bbe-9a1e-804e50c5cf97)
+
 
 
 
@@ -30,7 +32,8 @@ git config user.email " 邮箱 "
 
 **git commit -m "注释" 文件**
 
-![image-20240509142705385](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509142705385.png)
+![屏幕截图 2024-05-09 142647](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/d06a5861-d9d7-4514-8411-8902a9cf12a8)
+
 
 
 
@@ -38,14 +41,16 @@ git config user.email " 邮箱 "
 
 **git status**
 
-![image-20240509143209671](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509143209671.png)
+![屏幕截图 2024-05-09 143208](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/ff8b550c-ee5b-4b2e-83a1-be12e2074d93)
+
 
 
 
 修改文件demo.txt，再次进行查看：
 
 
-![image-20240509143318842](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509143318842.png)
+![屏幕截图 2024-05-09 143317](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/ba7a35f6-cda3-45f3-960f-e2c6fe949ebd)
+
 
 demo.txt被修改了，需要重新提交
 
@@ -61,7 +66,8 @@ git commit -m " ...... " demo.txt
 
 git log        由近到远操作记录
 
-![image-20240509144236088](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509144236088.png)
+![屏幕截图 2024-05-09 144148](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/8245ed79-12ba-4254-a508-29fc5b67508e)
+
 
 
 
@@ -96,7 +102,9 @@ git log        由近到远操作记录
 
 本地库回退的同时，暂存区和工作区同步回退
 
-![image-20240509150158267](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509150158267.png)
+![屏幕截图 2024-05-09 150156](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/ba958c4f-1ce8-49a2-9b69-447a0507b01f)
+
+
 
 
 
@@ -152,7 +160,8 @@ git log        由近到远操作记录
 
 
 
-![image-20240509152049096](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509152049096.png)
+![屏幕截图 2024-05-09 152040](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/9bed4165-8dad-483d-b13d-90fed91f8658)
+
 
 
 
@@ -164,7 +173,8 @@ git log        由近到远操作记录
 
 ​		**git branch -v** 
 
-![image-20240509153940689](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509153940689.png)
+![屏幕截图 2024-05-09 153859](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/f3053d21-05f3-48d0-bfd1-577eb5e46748)
+
 
 
 
@@ -187,15 +197,14 @@ git log        由近到远操作记录
 
 **git remote -v**
 
-![image-20240509195348288](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509195348288.png)
-
 
 
 为地址取一个别名（origin）：
 
 **git remote add 别名 地址**
 
-![image-20240509195528327](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509195528327.png)
+![屏幕截图 2024-05-09 195524](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/22c717da-f2c4-4f14-930d-e1f7dc80dff3)
+
 
 
 
@@ -207,7 +216,8 @@ git log        由近到远操作记录
 
 git push 地址/别名 main
 
-![image-20240509200451315](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509200451315.png)
+![屏幕截图 2024-05-09 200442](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/aa93efc2-73d1-4e0b-847a-dbc786773d68)
+
 
 
 
@@ -219,7 +229,8 @@ git push 地址/别名 main
 2. 将远程库内容完整克隆到本地
 3. 创建远程库别名   **git remote add 别名 地址**
 
-![image-20240509200901642](C:\Users\Yiyun\AppData\Roaming\Typora\typora-user-images\image-20240509200901642.png)
+![屏幕截图 2024-05-09 200851](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/4a6bbe52-f1db-4d0a-a426-e80f2469f4ce)
+
 
 
 
