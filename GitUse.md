@@ -22,7 +22,7 @@ git config user.email " 邮箱 "
 **git init 文件**
 
 添加文件到暂存区（多个文件用空格分隔）
-**git add 文件**
+	**git add 文件**
 
 ![屏幕截图 2024-05-09 141805](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/c395068c-16f1-4bbe-9a1e-804e50c5cf97)
 
@@ -66,7 +66,7 @@ git commit -m " ...... " demo.txt
 #### git 日志
 
 **git log**
-由近到远操作记录
+		由近到远操作记录
 
 ![屏幕截图 2024-05-09 144148](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/8245ed79-12ba-4254-a508-29fc5b67508e)
 
@@ -216,7 +216,7 @@ git commit -m " ...... " demo.txt
 
 (github上主分支应该是main)
 
-git push 地址/别名 main
+**git push 地址/别名 main**
 
 ![屏幕截图 2024-05-09 200442](https://github.com/Yiyun0422/FirstRespAsBeginner/assets/130904563/aa93efc2-73d1-4e0b-847a-dbc786773d68)
 
@@ -244,12 +244,13 @@ pull = fetch + merge
 2. 抓取操作：
    - git fetch 项目地址或别名 main
      - 只是将远程库下载到本地，但是工作区没有任何更新
+     -  **git reset --hard user/main**：修改本地远程仓库保持一致
    - 抓取后可以去远程库查看内容是否正确
      - 切换远程库：       **git checkout 地址或别名/ main**
      - 查看文件         ： **cat 文件**
    - 合并
      - **git merge 地址或别名/main**
-
+   
 3. 直接拉取
    - **git pull origin master**
 
