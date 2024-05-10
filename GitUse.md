@@ -238,11 +238,11 @@ git commit -m " ...... " demo.txt
 
 #### 拉取项目
 
-pull = fetch + merge
+**pull = fetch + merge**
 
 1. 先确认远程库内容是否更新
 2. 抓取操作：
-   - git fetch 项目地址或别名 main
+   - **git fetch 项目地址或别名 main**
      - 只是将远程库下载到本地，但是工作区没有任何更新
      -  **git reset --hard user/main**：修改本地远程仓库保持一致
    - 抓取后可以去远程库查看内容是否正确
