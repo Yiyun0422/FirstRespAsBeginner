@@ -12,7 +12,7 @@ git push origin main
 
 出现本地与远程不一致，尽量恢复至远程状态，另外将本地文件备份一份
 
-git fetch origin
+git fetch origin main
 
 git reset --hard origin/main
 
